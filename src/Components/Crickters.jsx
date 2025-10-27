@@ -14,11 +14,14 @@ const Crickters = ({handleFavCrickters}) => {
 
     return (
         <div>
-            {
+             
+         <div className='grid grid-cols-3 '>
+               {
                 crickters.map((crickter) => <Crickter 
                 handleFavCrickters={handleFavCrickters}
                 crickter={crickter} ></Crickter>)
             }
+         </div>
         </div>
     );
 };

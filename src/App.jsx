@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-   <div className='flex justify-center gap-6'>
+   <div className='flex justify-between gap-2 px-6 mx-auto'>
     <div>
         <Crickters handleFavCrickters={handleFavCrickters}></Crickters>
     </div>
