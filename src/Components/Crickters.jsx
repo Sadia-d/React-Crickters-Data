@@ -15,7 +15,7 @@ const Crickters = ({handleFavCrickters}) => {
     return (
         <div>
              
-         <div className='grid grid-cols-3 '>
+         <div className=' container mx-auto grid lg:grid-cols-2 grid-cols-1 gap-4  '>
                {
                 crickters.map((crickter) => <Crickter 
                 handleFavCrickters={handleFavCrickters}

@@ -4,7 +4,7 @@ import FavCrickter from './FavCrickter';
 
 const FavCrickters = ({crickters}) => {
     return ( 
-        <div className='border-2 border-blue-500 text-center w-[400px]'>
+        <div className='border-2 border-blue-500 text-center lg:w-[400px]'>
             <h1 className='text-center font-bold text-2xl mt-3'>Favorite Crickter : {crickters.length}</h1>
            <div >
              {
